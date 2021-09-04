@@ -1,23 +1,31 @@
 /* Navbar Styling */
 
 #navbar {
-  background-color: #cfc7c7c2;
-  color: black;
+  background-color: transparent;
 }
 #navbar .navbar-brand {
-  color: black;
+  color: white;
 }
-
 #navbar .nav-link {
   transition: none;
-  color: black;
+  color: white;
   font-family: "Fira Sans", sans-serif;
 }
 #navbar .nav-link:hover {
-  background-color: rgb(190, 178, 178);
-  color: white;
-  border-radius: 10px;
-  padding: 8px;
+  color: rgb(255, 115, 0);
+}
+#navbar .nav-link:active {
+  color: rgb(251, 255, 11);
+}
+/* Navbar Styled */
+
+#myslideshow img {
+  height: 800px;
 }
 
-/* Navbar Styled */
+.carousel-caption {
+  transform: translateY(-50%);
+  bottom: initial;
+  top: 50%;
+  font-family: "Oswald", sans-serif;
+}
