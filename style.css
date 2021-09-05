@@ -1,7 +1,7 @@
 /* Navbar Styling */
 
 #navbar {
-  background-color: transparent;
+  background-color: black;
 }
 #navbar .navbar-brand {
   color: white;
@@ -31,3 +31,52 @@
   font-family: "Oswald", sans-serif;
 }
 /* slides styled */
+
+/*  About section*/
+
+#about-section {
+  background-color: black;
+  height: 530px;
+  position: absolute;
+  width: 100%;
+}
+
+#about {
+  font-size: 26px;
+  color: #cacbbf;
+}
+#aboutus {
+  margin-top: 70px;
+  height: 307px;
+}
+
+#about-name {
+  font-size: 35px;
+  display: block;
+}
+
+.about-info {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  margin-top: 257px;
+}
+#col1 {
+  margin-left: 43px;
+}
+#col2 {
+  margin-right: 43px;
+}
+#infop {
+  padding: 8px;
+  font-size: 23px;
+  animation-name: para;
+}
+/* About Section styled */
+
+/* Responsive media */
+@media screen and (min-width: 360px) {
+  .about-info {
+    margin-top: 60px;
+    margin-left: 40px;
+  }
+}
