@@ -58,7 +58,7 @@
 .about-info {
   color: white;
   font-family: "Oswald", sans-serif;
-  margin-top: 257px;
+  margin-top: 255px;
 }
 #col1 {
   margin-left: 43px;
@@ -67,16 +67,86 @@
   margin-right: 43px;
 }
 #infop {
-  padding: 8px;
+  padding: 7px;
   font-size: 23px;
   animation-name: para;
 }
 /* About Section styled */
+/* Services section */
+
+#Services {
+  margin-top: 530px;
+  height: 1070px;
+  padding: 0%;
+  background-color: white;
+}
+.category-services {
+  border: 2px solid gray;
+  text-align: center;
+  width: 300px;
+  height: 341px;
+  box-shadow: 2px 2px 1px gray;
+  margin: 20px;
+}
+
+.iconheading {
+  margin-top: 15px;
+  font-family: "Oswald", sans-serif;
+}
+.p-service {
+  padding: 10px;
+  margin-top: 28px;
+  font-family: "Fira Sans", sans-serif;
+}
+.service-icon {
+  height: 60px;
+  width: 76px;
+  margin-top: 31px;
+}
+
+#service-box {
+  height: 1000px;
+  /* border: 2px solid red; */
+  position: absolute;
+  margin-left: 96px;
+  margin-top: 70px;
+  justify-content: center;
+}
+#mainSbox {
+  height: 165px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Rajdhani", sans-serif;
+}
+#mainSbox h2 {
+  font-size: 44px;
+  font-weight: 700;
+}
+#ourservice {
+  font-size: 30px;
+  font-weight: 500px;
+}
 
 /* Responsive media */
-@media screen and (min-width: 360px) {
+@media (min-width: 200px) and (max-width: 800px) {
   .about-info {
-    margin-top: 60px;
+    margin-top: 10px;
     margin-left: 40px;
   }
+  #infop {
+    font-size: 20px;
+  }
+  #service-box {
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+
+  #mainSbox {
+    margin-bottom: 48px;
+    margin-top: 10px;
+    width: 200px;
+  }
+}
+#mainSbox h2 {
+  font-size: 38px;
 }
